@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Projects</title>
+</head>
+<body style="background:#5DBC37">
+    <form action="" oninput="y.value=parseInt(a.value)+parseInt(b.value)" method="">
+    <fieldset>
+        <legend>Form Project</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="Full name">Full Name</label>
+                    </td>
+
+                    <td>
+                        <input type="text" name="" id="" placeholder="Enter Your Full Name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+
+                    <td>
+                        <input type="email" name="" id="" placeholder="Enter Your Email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="passeord" >Password(UpperCase, LowerCase, Number/SpecialChars and min 6 Chars)</label>
+                    </td>
+
+                    <td>
+                        <input type="password" name="" id="" placeholder="Enter Your Passwprd" pattern=((?=.*[A-Z])(?=.*[a-z])(?=.*/d)(?=.*[@#$%].{6,10})>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Phone">Phone</label>
+                    </td>
+
+                    <td>
+                        <input type="tel" name="" id="" placeholder="Enter Your Phone Number">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="date">Date</label> 
+                    </td>
+
+                    <td>
+                        <input type="date" name="" id="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Birthday Date">Birthdday Date</label>
+                    </td>
+
+                    <td>
+                        <input type="datetime-local" name="" id="" placeholder="Enter Your Birthday Date">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="file">File Upload</label>
+                    </td>
+
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="month">Month</label>
+                    </td>
+
+                    <td>
+                        <input type="month" disabled>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="number">Number</label> 
+                    </td>
+
+                    <td>
+                        <input type="number" between 1 to 100>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="volume">Volume (between 0 to 20)</label>
+                    </td>
+                    <td>
+                        <input type="range">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="search for google">Search For Google</label>
+                    </td>
+
+                    <td>
+                        <input type="search" placeholder="Enter Your Anything">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="time">Time</label>
+                    </td>
+
+                    <td>
+                        <input type="time" placeholder="Enter Your Anything">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="short url">Short URL</label>
+                    </td>
+
+                    <td>
+                        <input type="url" placeholder="Enter Your URL">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="week">Week</label>
+                    </td>
+
+                    <td>
+                        <input type="week" placeholder="Enter Your Anything" readonly>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="cars">Choose A Car</label>
+                    </td>
+                    <td>
+                        <select name="cars" id="caars">
+                            <option value="Mecedes">Mecedes</option>
+                            <option value="Hondai">Hondai</option>
+                            <option value="Audi">Audi</option>
+                            <option value="Ford" selected> Ford</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="message box">Message Box</label>
+                    </td>
+                    <td>
+                        <textarea rows="5" cols="30" placeholder="Enter Your Message"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="buttom js intro">Buttom JS Intro</label>
+                    </td>
+                    <td>
+                        <button type="button" onclick="alert ('Are You Ok?')">Click Me!</buttom>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="datalist new elements">Datalist New Elements</label>
+                    </td>
+                    <td>
+                        <input list="broswers">
+                        <datalist id="broswers">
+                            <option value="Internet Exploler">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">Safari</option>           
+                        </datalist>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="output new element">Output New Element</label>
+                    </td>
+                    <td>
+                        0
+                        <input type="range" name="a" id="a" value="50">
+                        100+
+                        <input type="number" name="b" id="b" value="50">
+                        =
+                        <output name="y" for="a b"></output>
+                        <br><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <!-- <label for="output new element">Output New Element</label> -->
+                    </td>
+                    <td>
+                        <input type="submit" value="Send">
+                    </td>
+                </tr>
+            </table>
+    </fieldset>
+</form>
+</body>
+</html>
